@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+	<Field name="ctnm" nullable="true" type="string"/>
+	<Field name="ctnmen" nullable="true" type="string"/>
+	<Field name="address" nullable="true" type="string"/>
+	<Field name="csnm" nullable="true" type="string"/>
+	<Field name="ctnt" nullable="true" type="string"/>
+	<Field name="islocal" nullable="true" type="string"/>
+	<Field name="cs" nullable="true" type="string"/>
+	<Field name="phone" nullable="true" type="string"/>
+	<Field name="fax" nullable="true" type="string"/>
+	<Field name="sms" nullable="true" type="string"/>
+	<Field name="email" nullable="true" type="string"/>
+	<Field name="caddress" nullable="true" type="string"/>
+	<Field name="ecas" nullable="true" type="string"/>
+	<Field name="crating" nullable="true" type="string"/>
+	<Field name="parentbrca" nullable="true" type="string"/>
+	<Field name="brca" nullable="true" type="string"/>
+	<Field name="cptc" nullable="true" type="string"/>
+	<Field name="taxpayerType" nullable="true" type="string"/>
+	<Field name="basicAcBank" nullable="true" type="string"/>
+	<Field name="basicAc" nullable="true" type="string"/>
+	<Field name="nationaltaxlic" nullable="true" type="string"/>
+	<Field name="taxAddress" nullable="true" type="string"/>
+	<Field name="receiveAddress" nullable="true" type="string"/>
+	<Field name="isInvoice" nullable="true" type="string"/>
+	<Field name="typeInvoice" nullable="true" type="string"/>
+	<Field name="status" nullable="true" type="string"/>
+	<Field name="citpUscc" nullable="true" type="string"/>
+	<Field name="contactor" nullable="true" type="string"/>
+	<Field name="zipcode" nullable="true" type="string"/>
+	<Field name="invFreq" nullable="true" type="string"/>
+	<Field name="swiftcode" nullable="true" type="string"/>
+	<Field name="lncardid" nullable="true" type="string"/>
+	<Field name="taxfreecode" nullable="true" type="string"/>
+	<Field name="rishrank" nullable="true" type="string"/>
+	<Field name="sysDate" nullable="true" type="string"/>
+</Record>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="ctnm" nullable="true" type="string"/>
+    <Field name="afcsnm" nullable="true" type="string"/>
+    <Field name="afctnm" nullable="true" type="string"/>
+    <Field name="repr" nullable="true" type="string"/>
+    <Field name="apidt" nullable="true" type="string"/>
+    <Field name="apidn" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+</Record>

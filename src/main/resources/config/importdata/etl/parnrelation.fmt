@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="parn" nullable="true" type="string"/>
+    <Field name="parnm" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="fccy" nullable="true" type="string"/>
+    <Field name="famt" nullable="true" type="string"/>
+    <Field name="memo" nullable="true" type="string"/>
+</Record>

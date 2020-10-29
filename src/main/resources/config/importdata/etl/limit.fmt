@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record FieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+	<Field name="csnm" nullable="true" type="string"/>
+	<Field name="ctnm" nullable="true" type="string"/>
+	<Field name="brca" nullable="true" type="string"/>
+	<Field name="parentbrca" nullable="true" type="string"/>
+	<Field name="brcaCo" nullable="true" type="string"/>
+	<Field name="lineCode" nullable="true" type="string"/>
+	<Field name="ftyp" nullable="true" type="string"/>
+	<Field name="fccy" nullable="true" type="string"/>
+	<Field name="famt" nullable="true" type="string"/>
+	<Field name="fuam" nullable="true" type="string"/>
+	<Field name="revoLoancmtm" nullable="true" type="string"/>
+	<Field name="loanCttNum" nullable="true" type="string"/>
+	<Field name="liabilityNum" nullable="true" type="string"/>
+	<Field name="creditLine" nullable="true" type="string"/>
+	<Field name="drawDate" nullable="true" type="string"/>
+	<Field name="expiryDate" nullable="true" type="string"/>
+	<Field name="sysDate" nullable="true" type="string"/>
+	<Field name="loanGarMtd" nullable="true" type="string"/>
+</Record>

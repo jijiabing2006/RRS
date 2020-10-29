@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="biln" nullable="true" type="string"/>
+	<Field name="payen" nullable="true" type="string"/>
+	<Field name="drac" nullable="true" type="string"/>
+	<Field name="payb" nullable="true" type="string"/>
+	<Field name="dais" nullable="true" type="string"/>
+	<Field name="matd" nullable="true" type="string"/>
+	<Field name="bptp" nullable="true" type="string"/>
+	<Field name="fcvu" nullable="true" type="string"/>
+	<Field name="note" nullable="true" type="string"/>
+	<Field name="cmdt" nullable="true" type="string"/>
+	<Field name="acpn" nullable="true" type="string"/>
+	<Field name="acpt" nullable="true" type="string"/>
+	<Field name="pefn" nullable="true" type="string"/>
+	<Field name="peac" nullable="true" type="string"/>
+	<Field name="peob" nullable="true" type="string"/>
+	<Field name="dicr" nullable="true" type="string"/>
+	<Field name="ccy" nullable="true" type="string"/>
+	<Field name="wart" nullable="true" type="string"/>
+	<Field name="cnlobs" nullable="true" type="string"/>
+	<Field name="grtc" nullable="true" type="string"/>
+	<Field name="lineCode" nullable="true" type="string"/>
+	<Field name="fact" nullable="true" type="string"/>
+	<Field name="fccy" nullable="true" type="string"/>
+	<Field name="famt" nullable="true" type="string"/>
+    <Field name="brca" nullable="true" type="string"/>
+    <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brcaCo" nullable="true" type="string"/>
+    <Field name="blno" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+</Record>

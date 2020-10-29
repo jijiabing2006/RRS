@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="lcno" nullable="true" type="string"/>
+    <Field name="lctype" nullable="true" type="string"/>
+    <Field name="ctnm" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="isbk" nullable="true" type="string"/>
+    <Field name="isdt" nullable="true" type="string"/>
+    <Field name="adexrydate" nullable="true" type="string"/>
+    <Field name="befc" nullable="true" type="string"/>
+    <Field name="befcno" nullable="true" type="string"/>
+    <Field name="malc" nullable="true" type="string"/>
+    <Field name="ioun" nullable="true" type="string"/>
+    <Field name="cdcn" nullable="true" type="string"/>
+    <Field name="ngtb" nullable="true" type="string"/> 
+    <Field name="swiftcode" nullable="true" type="string"/>
+    <Field name="lccr" nullable="true" type="string"/>
+    <Field name="lcam" nullable="true" type="string"/>
+    <Field name="lcbl" nullable="true" type="string"/>
+    <Field name="lcte" nullable="true" type="string"/>   
+    <Field name="coms" nullable="true" type="string"/>
+    <Field name="chtp" nullable="true" type="string" />
+    <Field name="grtc" nullable="true" type="string" />
+    <Field name="lineCode" nullable="true" type="string"/>
+    <Field name="ftyp" nullable="true" type="string" />
+    <Field name="fccy" nullable="true" type="string"/>
+    <Field name="fcam" nullable="true" type="string"/>
+    <Field name="brca" nullable="true" type="string"/>
+    <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brcaCo" nullable="true" type="string"/>
+    <Field name="tenorDays" nullable="true" type="string"/>
+    <Field name="bankPayFlg" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+</Record>

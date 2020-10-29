@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="date" nullable="true" type="string"/>
+    <Field name="ccy" nullable="true" type="string"/>
+    <Field name="exchangerateBuy" nullable="true" type="string"/> 
+    <Field name="exchangerateMid" nullable="true" type="string"/> 
+    <Field name="exchangerateSell" nullable="true" type="string"/> 
+    <Field name="exchangemethod" nullable="true" type="string"/>
+    <Field name="ratetype" nullable="true" type="string"/>
+</Record>

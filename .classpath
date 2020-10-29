@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.1">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-chart-8.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-performance-8.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-plugin-report-fit-1.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-third-8.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/json.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.chart.bitmapchart-1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.chart.verticallinechart-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.functionrecorder-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.idcardregex-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.mdnl-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.mdnl-1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.mdnl-2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.oldui-1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.register-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.reportfit-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.sap-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.sap-3.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.widget.excel.excelexport-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/plugin-com.fr.plugin.widget.radio.estateradiogroup-0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ueditor-1.1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-vfs-20100924-pentaho.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/drools-api-5.0.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/drools-compiler-5.0.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/drools-core-5.0.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/kettle-core-5.2.0.0-209.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/kettle-dbdialog-5.2.0.0-209.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/kettle-engine-5.2.0.0-209.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/kettle-ui-swt-5.2.0.0-209.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/metastore-5.2.0.0-209.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/js-1.7R3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-report-8.0.jar" sourcepath="F:/software/Maven/Repository/com/finereport/fr-report-8.0.src.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-core-8.0.jar" sourcepath="F:/software/Maven/Repository/com/finereport/fr-core-8.0.src.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fr-platform-8.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

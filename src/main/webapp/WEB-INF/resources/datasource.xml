@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatasourceManager xmlVersion="20141222" releaseVersion="8.0.0">
+<ConnectionMap>
+	<Connection name="dataSource_cubods" class="com.finereport.dao.FRJDBCConnection">
+		<DatabaseAttr/>
+		<JDBCDatabaseAttr >
+		<DBCPAttr/>
+		</JDBCDatabaseAttr>
+	</Connection>
+	<!--
+	<Connection name="dataSource_cubods" class="com.fr.data.impl.JDBCDatabaseConnection">
+		<DatabaseAttr/>
+		<JDBCDatabaseAttr url="jdbc:mysql://10.130.24.51:3306/cubods?useUnicode=true&amp;characterEncoding=UTF-8" driver="com.mysql.jdbc.Driver" user="root" password="___0070002f007e0067000500ac" encryptPassword="true">
+		<DBCPAttr/>
+		</JDBCDatabaseAttr>
+	</Connection>
+	-->
+</ConnectionMap>
+<TableDataMap>
+<TableData name="unZeroGL" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="brca"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpunit"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpdate"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Parameters>
+<Attributes share="true" maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[dataSource_cubods]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT num,ccy,
+${if(len(rpunit) == 0,"balance","balance/'" + rpunit+"'")
+} balance,
+${if(len(rpunit) == 0,"balancecny","balancecny/'" + rpunit+"'")
+} balancecny,
+${if(len(rpunit) == 0,"balanceusd","balanceusd/'" + rpunit+"'")
+} balanceusd,
+parentbrca parentbrca,
+brca brca
+FROM t_acc_gl acc_gl
+WHERE importdate='${rpdate}'
+${if(len(brca) == 0,"","and parentbrca = '" + brca + "'")} 
+and balance<>0]]></Query>
+</TableData>
+<TableData name="v_loan_cust" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="brca"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpunit"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpdate"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Parameters>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[dataSource_cubods]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[ select trade_id,csnm,ccy,matdate,
+${if(len(rpunit) == 0,"notesell_bl","notesell_bl/'" + rpunit+"'")
+} notesell_bl,
+${if(len(rpunit) == 0,"notesell_blcny","notesell_blcny/'" + rpunit+"'")
+} notesell_blcny,
+${if(len(rpunit) == 0,"notesell_blusd","notesell_blusd/'" + rpunit+"'")
+} notesell_blusd,
+loangrade,
+loan_risk ,
+loan_prd,
+dtyp,
+use_loan,
+ctnm,cs,islocal,ctnt,source,parentbrca ,importdate
+from  v_loan_cust  
+where importdate='${rpdate}'
+${if(len(brca) == 0,"","and parentbrca = '" + brca + "'")} 
+and notesell_bl<>0]]></Query>
+</TableData>
+<TableData name="v_deposit_cust" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="brca"/>
+<O>
+<![CDATA[0606]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpunit"/>
+<O>
+<![CDATA[1]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpdate"/>
+<O>
+<![CDATA[20151231]]></O>
+</Parameter>
+</Parameters>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[dataSource_cubods]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT dlno,csnm,ccy,dtyp,
+${if(len(rpunit) == 0,"workingbalance","workingbalance/'" + rpunit+"'")
+} workingbalance,
+${if(len(rpunit) == 0,"workingbalancecny","workingbalancecny/'" + rpunit+"'")
+} workingbalancecny,
+${if(len(rpunit) == 0,"workingbalanceusd","workingbalanceusd/'" + rpunit+"'")
+} workingbalanceusd,
+${if(len(rpunit) == 0,"pcpl","pcpl/'" + rpunit+"'")
+} pcpl,
+${if(len(rpunit) == 0,"pcplcny","pcplcny/'" + rpunit+"'")
+} pcplcny,
+${if(len(rpunit) == 0,"pcplusd","pcplusd/'" + rpunit+"'")
+} pcplusd,
+parentbrca ,
+brca ,
+ctnm,
+ctnt,
+cs,
+islocal,
+source,
+nesclv1,
+nesclv2
+FROM v_deposit_cust  
+WHERE importdate='${rpdate}'
+${if(len(brca) == 0,"","and parentbrca = '" + brca + "'")} 
+and workingbalance<>0
+]]></Query>
+</TableData>
+<TableData name="v_fixmm_cust" class="com.fr.data.impl.DBTableData">
+<Parameters>
+<Parameter>
+<Attributes name="brca"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpunit"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="rpdate"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</Parameters>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[dataSource_cubods]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT dlno,csnm,ccy,category,
+${if(len(rpunit) == 0,"pcpl","pcpl/'" + rpunit+"'")
+} pcpl,
+${if(len(rpunit) == 0,"pcplcny","pcplcny/'" + rpunit+"'")
+} pcplcny,
+${if(len(rpunit) == 0,"pcplusd","pcplusd/'" + rpunit+"'")
+} pcplusd,
+parentbrca ,
+ctnm,
+ctnt,
+cs,
+islocal
+FROM v_fixmm_cust 
+WHERE importdate='${rpdate}'
+${if(len(brca) == 0,"","and parentbrca = '" + brca + "'")} 
+and pcpl<>0
+]]></Query>
+</TableData>
+<TableData name="v_smt_mm_cust" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[dataSource_cubods]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT ccy, mmtype, pors, tradestatus, notional, notionalcny,notionalusd, cust, matdate, pboc, physicalforeign,Fin_ins_Bank
+FROM v_smt_mm_cust 
+WHERE importdate='${rpdate}'
+${if(len(brca) == 0,"","and parentbrca = '" + brca + "'")} 
+and notional<>0
+]]></Query>
+</TableData>
+</TableDataMap>
+</DatasourceManager>

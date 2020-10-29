@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.plugin.chart.verticallinechart</id>
+    <name><![CDATA[垂直折线图]]></name>
+    <active>no</active>
+    <version>1.0</version>
+    <env-version>8.0</env-version>
+    <vendor>finereport</vendor>
+    <description><![CDATA[垂直折线图]]></description>
+    <change-notes><![CDATA[无]]></change-notes>
+    <extra-core>
+    </extra-core>
+    <extra-report/>
+    <extra-designer>
+    </extra-designer>
+
+    <extra-chart-type>
+        <ChartTypeProvider class="com.fr.plugin.chart.VerticalLineChartType"/>
+    </extra-chart-type>
+
+    <extra-chart-design>
+        <ChartTypeInterfaceProvider class="com.fr.plugin.chart.VerticalLineChartInterface"/>
+    </extra-chart-design>
+</plugin>

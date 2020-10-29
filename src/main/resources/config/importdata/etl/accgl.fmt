@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="num" nullable="true" type="string"/>
+	<Field name="name" nullable="true" type="string"/>
+	<Field name="ccy" nullable="true" type="string"/>
+	<Field name="parentbrca" nullable="true" type="string"/>
+	<Field name="brca" nullable="true" type="string"/>
+	<Field name="balance" nullable="true" type="string"/>
+	<Field name="clsfctItem" nullable="true" type="string"/>
+	<Field name="da" nullable="true" type="string"/>
+	<Field name="ca" nullable="true" type="string"/>
+	<Field name="actDate" nullable="true" type="string"/>
+</Record>

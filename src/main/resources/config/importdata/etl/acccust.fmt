@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="acod" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="category" nullable="true" type="string"/>
+	<Field name="ccy" nullable="true" type="string"/>
+    <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brca" nullable="true" type="string"/>
+    <Field name="opendate" nullable="true" type="string"/>
+    <Field name="echam" nullable="true" type="string"/>
+    <Field name="effdate" nullable="true" type="string"/>
+    <Field name="closedate" nullable="true" type="string"/>
+    <Field name="matdate" nullable="true" type="string"/>
+    <Field name="valdate" nullable="true" type="string"/>
+    <Field name="balance" nullable="true" type="string"/>
+    <Field name="clsBal" nullable="true" type="string"/>
+    <Field name="intPrd" nullable="true" type="string"/>
+    <Field name="intStmt" nullable="true" type="string"/>
+    <Field name="fileNumber" nullable="true" type="string"/>
+    <Field name="lmdt" nullable="true" type="string"/>
+    <Field name="status" nullable="true" type="string"/>
+    <Field name="limittype" nullable="true" type="string"/>
+    <Field name="accountlimit" nullable="true" type="string"/>
+    <Field name="ftType" nullable="true" type="string"/>
+    <Field name="mainacod" nullable="true" type="string"/>
+    <Field name="bpacod" nullable="true" type="string"/>
+    <Field name="balanceAvail" nullable="true" type="string"/>
+    <Field name="safeAccType" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+</Record>

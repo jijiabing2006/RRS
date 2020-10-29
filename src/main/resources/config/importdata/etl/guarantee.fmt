@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+	<Field name="ctnm" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="cnlobs" nullable="true" type="string"/>
+    <Field name="grtc" nullable="true" type="string"/>
+    <Field name="wart" nullable="true" type="string"/>
+    <Field name="mrtcode" nullable="true" type="string"/>
+    <Field name="mrttype" nullable="true" type="string"/>
+    <Field name="mrtName" nullable="true" type="string"/>
+    <Field name="mrtCd" nullable="true" type="string"/>
+	<Field name="namOwner" nullable="true" type="string"/>
+    <Field name="idtpOwner" nullable="true" type="string"/>
+    <Field name="idOwner" nullable="true" type="string"/>
+    <Field name="aceFreq" nullable="true" type="string"/>
+    <Field name="estVal" nullable="true" type="string"/>
+    <Field name="fstValdate" nullable="true" type="string"/>
+    <Field name="updValdate" nullable="true" type="string"/>
+    <Field name="matdatVal" nullable="true" type="string"/>
+    <Field name="brca" nullable="true" type="string"/>
+    <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brcaCo" nullable="true" type="string"/>
+	<Field name="grtcNo" nullable="true" type="string"/>
+    <Field name="ccy" nullable="true" type="string"/>
+    <Field name="applicationId" nullable="true" type="string"/>
+    <Field name="lineRef" nullable="true" type="string"/>
+    <Field name="colCust" nullable="true" type="string"/>
+    <Field name="valDate" nullable="true" type="string"/>
+    <Field name="expDate" nullable="true" type="string"/>
+    <Field name="insCcy" nullable="true" type="string"/>
+    <Field name="insAmt" nullable="true" type="string"/>
+    <Field name="issueInstit" nullable="true" type="string"/>
+    <Field name="regnDate" nullable="true" type="string"/>
+    <Field name="colAdd" nullable="true" type="string"/>
+    <Field name="colExpDate" nullable="true" type="string"/>
+    <Field name="lastTime" nullable="true" type="string"/>
+    <Field name="nominalVal" nullable="true" type="string"/>
+    <Field name="ledgCcy" nullable="true" type="string"/>
+    <Field name="ledgVal" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+    <Field name="riskLev" nullable="true" type="string"/>
+</Record>

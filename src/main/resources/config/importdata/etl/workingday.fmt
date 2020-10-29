@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="lastWorkingDay" nullable="true" type="string"/>
+    <Field name="today" nullable="true" type="string"/>
+    <Field name="nextWorkingDay" nullable="true" type="string"/>
+    <Field name="nextNextWorkingDay" nullable="true" type="string"/>
+</Record>

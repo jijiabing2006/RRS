@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="dlno" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="ccy" nullable="true" type="string"/>
+    <Field name="rftp" nullable="true" type="string"/>
+    <Field name="dctc" nullable="true" type="string"/>
+    <Field name="dttc" nullable="true" type="string"/>
+    <Field name="dtyp" nullable="true" type="string"/>
+    <Field name="drrt" nullable="true" type="string"/>
+    <Field name="bearPrd" nullable="true" type="string"/>
+    <Field name="insBearMtd" nullable="true" type="string"/>
+    <Field name="insStmt" nullable="true" type="string"/>
+    <Field name="orgc" nullable="true" type="string"/>
+    <Field name="bpacod" nullable="true" type="string"/>
+    <Field name="acdd" nullable="true" type="string"/>
+    <Field name="depoAgrStdt" nullable="true" type="string"/>
+    <Field name="depoAgrEddt" nullable="true" type="string"/>
+    <Field name="workingbalance" nullable="true" type="string"/>
+    <Field name="drtd" nullable="true" type="string"/>
+    <Field name="strikeRate" nullable="true" type="string"/>
+    <Field name="certDepo" nullable="true" type="string"/>
+	<Field name="certDepoType" nullable="true" type="string"/>
+    <Field name="certDepoNo" nullable="true" type="string"/>
+    <Field name="rollMk" nullable="true" type="string"/>
+    <Field name="renewMet" nullable="true" type="string"/>
+    <Field name="autoRenewdt" nullable="true" type="string"/>
+    <Field name="brca" nullable="true" type="string"/>
+    <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brcaCo" nullable="true" type="string"/>
+    <Field name="ddat" nullable="true" type="string"/>
+    <Field name="pcpl" nullable="true" type="string"/>
+    <Field name="nidt" nullable="true" type="string"/>
+    <Field name="aipd" nullable="true" type="string"/>
+    <Field name="taxrate" nullable="true" type="string"/>
+    <Field name="minPay" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+</Record>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+    <Field name="dlno" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/> 
+    <Field name="forgExAcc" nullable="true" type="string"/>
+    <Field name="setExAcc" nullable="true" type="string"/>    
+    <Field name="dtyp" nullable="true" type="string"/>
+    <Field name="ortp" nullable="true" type="string"/>
+    <Field name="ddat" nullable="true" type="string"/>
+    <Field name="vdat" nullable="true" type="string"/>
+    <Field name="pucy" nullable="true" type="string"/>
+    <Field name="puam" nullable="true" type="string"/>
+    <Field name="slcy" nullable="true" type="string"/>
+    <Field name="slam" nullable="true" type="string" />
+    <Field name="cusBuy" nullable="true" type="string"/>
+    <Field name="bkBuy" nullable="true" type="string" />
+    <Field name="note" nullable="true" type="string" />
+    <Field name="exSetcd" nullable="true" type="string" />
+    <Field name="declUbop" nullable="true" type="string" />
+    <Field name="exSetapp" nullable="true" type="string" />
+     <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brca" nullable="true" type="string"/>
+    <Field name="brcaCo" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+  </Record>

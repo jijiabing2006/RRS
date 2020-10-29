@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+	<Field name="dlno" nullable="true" type="string"/>
+    <Field name="parentbrca" nullable="true" type="string"/>
+    <Field name="brcaCo" nullable="true" type="string"/>
+    <Field name="csnm" nullable="true" type="string"/>
+    <Field name="ccy" nullable="true" type="string"/>
+    <Field name="pcpl" nullable="true" type="string"/>
+    <Field name="deld" nullable="true" type="string"/>
+    <Field name="stad" nullable="true" type="string"/>
+    <Field name="matd" nullable="true" type="string"/>
+    <Field name="category" nullable="true" type="string"/>
+    <Field name="intratp" nullable="true" type="string"/>
+    <Field name="intbas" nullable="true" type="string"/>
+    <Field name="intrate" nullable="true" type="string"/>
+    <Field name="intkey" nullable="true" type="string"/>
+    <Field name="intspr" nullable="true" type="string"/>
+    <Field name="accpar" nullable="true" type="string"/>
+    <Field name="totintamt" nullable="true" type="string"/>
+    <Field name="inddued" nullable="true" type="string"/>
+    <Field name="remarks" nullable="true" type="string"/>
+    <Field name="drawacc" nullable="true" type="string"/>
+    <Field name="priliqacct" nullable="true" type="string"/>
+    <Field name="intliqacct" nullable="true" type="string"/>
+    <Field name="benbk" nullable="true" type="string"/>
+    <Field name="benacc" nullable="true" type="string"/>
+    <Field name="limitref" nullable="true" type="string"/>
+    <Field name="cusref" nullable="true" type="string"/>
+    <Field name="advsent" nullable="true" type="string"/>
+    <Field name="swiftco" nullable="true" type="string"/>
+    <Field name="intccy" nullable="true" type="string"/>
+    <Field name="aurol" nullable="true" type="string"/>
+    <Field name="aucap" nullable="true" type="string"/>
+    <Field name="aurolte" nullable="true" type="string"/>
+    <Field name="finmat" nullable="true" type="string"/>
+    <Field name="rolrate" nullable="true" type="string"/>
+    <Field name="predate" nullable="true" type="string"/>
+    <Field name="sysDate" nullable="true" type="string"/>
+</Record>

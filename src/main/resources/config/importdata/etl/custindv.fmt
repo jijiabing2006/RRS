@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" recordDelimiter="|\r\n" name="defaultName" recordSize="-1" type="delimited">
+	<Field name="ctnm" nullable="true" type="string"/>
+	<Field name="csnm" nullable="true" type="string"/>
+	<Field name="piabi" nullable="true" type="string"/>
+	<Field name="resi" nullable="true" type="string"/>
+	<Field name="islocal" nullable="true" type="string"/>
+	<Field name="pro" nullable="true" type="string"/>
+	<Field name="city" nullable="true" type="string"/>
+	<Field name="address" nullable="true" type="string"/>
+	<Field name="industrycode" nullable="true" type="string"/>
+	<Field name="ctnt" nullable="true" type="string"/>
+	<Field name="ctnmen" nullable="true" type="string"/>
+	<Field name="dob" nullable="true" type="string"/>
+	<Field name="isem" nullable="true" type="string"/>
+	<Field name="shod" nullable="true" type="string"/>
+	<Field name="encode" nullable="true" type="string"/>
+	<Field name="citp" nullable="true" type="string"/>
+	<Field name="gend" nullable="true" type="string"/>
+	<Field name="mars" nullable="true" type="string"/>
+	<Field name="job" nullable="true" type="string"/>
+	<Field name="cs" nullable="true" type="string"/>
+	<Field name="issa" nullable="true" type="string"/>
+	<Field name="phone" nullable="true" type="string"/>
+	<Field name="fax" nullable="true" type="string"/>
+	<Field name="sms" nullable="true" type="string"/>
+	<Field name="email" nullable="true" type="string"/>
+	<Field name="caddress" nullable="true" type="string"/>
+	<Field name="zipcode" nullable="true" type="string"/>
+	<Field name="income" nullable="true" type="string"/>
+	<Field name="isbl" nullable="true" type="string"/>
+	<Field name="blre" nullable="true" type="string"/>
+	<Field name="lvst" nullable="true" type="string"/>
+	<Field name="parentbrca" nullable="true" type="string"/>
+	<Field name="brca" nullable="true" type="string"/>
+	<Field name="regc" nullable="true" type="string"/>
+	<Field name="opdt" nullable="true" type="string"/>
+	<Field name="nation" nullable="true" type="string"/>
+	<Field name="status" nullable="true" type="string"/>
+	<Field name="rishrank" nullable="true" type="string"/>
+	<Field name="sysDate" nullable="true" type="string"/>
+</Record>

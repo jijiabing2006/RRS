@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+	<id>com.fr.plugin.oldui</id>
+	<name><![CDATA[老控件样式插件]]></name>
+  <active>no</active>
+	<version>1.0</version>
+	<env-version>8.0</env-version>
+	<vendor email="hugh@finereport.com">finereport</vendor>
+	<description><![CDATA[控件老样式插件]]></description>
+	<change-notes><![CDATA[控件老样式]]></change-notes>
+	<extra-core>
+		<WidgetSwitcher class="com.fr.widget.plugin.ToOldSwitcherImpl"/>
+		<JavaScriptFileHandler class="com.fr.plugin.lookandfeel.web.JavaScriptFile"/>
+		<CssFileHandler class="com.fr.plugin.lookandfeel.web.CssFile"/>
+	</extra-core>
+	<extra-report/>
+	<extra-designer/>
+</plugin>
